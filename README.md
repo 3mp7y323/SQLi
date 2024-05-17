@@ -1,10 +1,10 @@
 # SQLi
 SQL – injection
-#1. What is SQLi? Why does SQLi exist?
-##2. The level of damage caused by SQLi!!!
-###3. How SQLi works. Tools used for exploitation. Remediation.
+# 1. What is SQLi? Why does SQLi exist?
+## 2. The level of damage caused by SQLi!!!
+### 3. How SQLi works. Tools used for exploitation. Remediation.
 
-#1.A) What is SQLi?
+# 1.A) What is SQLi?
 ![image](https://github.com/thienusa2000/SQLi/assets/55008350/59a22032-f2c5-4cfd-ba9f-159807af9fc2)
 
 - Before diving into SQLi, let's first understand SQL. In simple terms, SQL (Structured Query Language) is a language designed to manage and manipulate data in relational database management systems (RDBMS).
@@ -43,7 +43,7 @@ b. Inferential (Blind) SQLi:
 c. Out-of-band SQLi:
    - Out-of-band SQLi (OOB): Using functions or features dependent on other protocols such as DNS or HTTP to transmit data from the database outward.
 
-##2. The level of damage caused by SQLi!!!
+## 2. The level of damage caused by SQLi!!!
 SQL Injection (SQLi) is one of the most serious security vulnerabilities, and the damage it can cause is diverse and severe. Here are the main levels of damage that a SQLi attack can cause:
 
 1. Sensitive information disclosure:
@@ -91,7 +91,7 @@ Real-life examples of famous SQL Injection attacks:
 
 Thus, the damage caused by SQL Injection can be very serious and diverse, affecting data, finances, reputation, and even legal aspects of organizations. Therefore, preventing and protecting systems from SQLi attacks is extremely important.
 
-###3. How SQLi works. Tools used for exploitation. Remediation.
+### 3. How SQLi works. Tools used for exploitation. Remediation.
 A) How SQLi works.
    - When a web application receives data from users (such as from input forms, URLs, or query parameters), if that data is not properly processed and validated, attackers can inject malicious SQL code into this input. This malicious SQL statement is then sent to the database for execution.
 
