@@ -13,7 +13,7 @@ SQL – injection
 - Because the condition OR '1'='1' is always true, this query will return all records in the users table, allowing attackers to log in without a valid password.
 - In summary, SQLi is a security attack technique in which attackers exploit vulnerabilities in web applications to inject malicious SQL statements into valid SQL queries. The goal is to access or manipulate data in the database illegally.
 
-1.B) Why does SQLi exist?
+# 1.B) Why does SQLi exist?
 a. Improper handling of input data:
    - Lack of input data validation and sanitization.
    - Directly concatenating strings into SQL statements.
@@ -28,7 +28,7 @@ e. Lack of security testing procedures:
 f. Outdated or insecure infrastructure:
    - Using outdated versions of database management systems or other software components without security patches.
 
-1.C) Types of SQLi
+# 1.C) Types of SQLi
 We can classify the 8 types of SQL Injection into 3 main groups: In-band SQLi, Inferential (Blind) SQLi, and Out-of-band SQLi.
 
 a. In-band SQLi:
