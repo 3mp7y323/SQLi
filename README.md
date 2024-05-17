@@ -5,6 +5,8 @@ SQL – injection
 3. How SQLi works. Tools used for exploitation. Remediation.
 
 1.A) What is SQLi?
+![image](https://github.com/thienusa2000/SQLi/assets/55008350/59a22032-f2c5-4cfd-ba9f-159807af9fc2)
+
 - Before diving into SQLi, let's first understand SQL. In simple terms, SQL (Structured Query Language) is a language designed to manage and manipulate data in relational database management systems (RDBMS).
 - SQLi, or SQL injection, is simply the act of injecting SQL commands into any input channel to send malicious commands, including <input> tags, query strings, cookies, and files. For example, when logging in, in the username and password fields, we can inject an SQL statement like:
 "SELECT * FROM users WHERE username = 'user' OR '1'='1' AND password = 'anything';"
