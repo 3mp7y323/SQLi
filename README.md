@@ -1,7 +1,7 @@
 # SQLi
 SQL – injection
-# 1. What is SQLi? Why does SQLi exist?
-## 2. The level of damage caused by SQLi!!!
+### 1. What is SQLi? Why does SQLi exist?
+### 2. The level of damage caused by SQLi!!!
 ### 3. How SQLi works. Tools used for exploitation. Remediation.
 
 # 1.A) What is SQLi?
