@@ -1,6 +1,6 @@
 # SQLi
 SQL – injection
-- [1. What is SQLi? Why does SQLi exist?](#What-is-SQLi?-Why-does-SQLi-exist?)
+- [1. What is SQLi? Why does SQLi exist?](#1-What-is-SQLi?-Why-does-SQLi-exist?)
   - [1.A) What is SQLi?](#1A-What-is-SQLi)
   - [1.B) Why does SQLi exist?](#1B-Why-does-SQLi-exist)
     - [a. Improper handling of input data](#a-improper-handling-of-input-data)
