@@ -104,7 +104,7 @@ Real-life examples of famous SQL Injection attacks:
 
 Thus, the damage caused by SQL Injection can be very serious and diverse, affecting data, finances, reputation, and even legal aspects of organizations. Therefore, preventing and protecting systems from SQLi attacks is extremely important.
 
-### 3. How SQLi works. Tools used for exploitation. Remediation.
+## 3. How SQLi works. Tools used for exploitation. Remediation.
 ### A) How SQLi works.
    - When a web application receives data from users (such as from input forms, URLs, or query parameters), if that data is not properly processed and validated, attackers can inject malicious SQL code into this input. This malicious SQL statement is then sent to the database for execution.
 
