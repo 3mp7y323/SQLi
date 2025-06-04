@@ -1,10 +1,13 @@
 # SQLi
 SQL – injection
-- [1. What is SQLi? Why does SQLi exist?](#1. What is SQLi? Why does SQLi exist?)
+- [1. What is SQLi? Why does SQLi exist?](#What-is-SQLi?-Why-does-SQLi-exist?)
+  - [1.A) What is SQLi?](#1A-What-is-SQLi)
+  - [1.B) Why does SQLi exist?](#1B-Why-does-SQLi-exist)
 ### 2. The level of damage caused by SQLi!!!
 ### 3. How SQLi works. Tools used for exploitation. Remediation.
 
-# 1.A) What is SQLi?
+## 1. What is SQLi? Why does SQLi exist?
+### 1.A) What is SQLi?
 ![image](https://github.com/thienusa2000/SQLi/assets/55008350/59a22032-f2c5-4cfd-ba9f-159807af9fc2)
 
 - Before diving into SQLi, let's first understand SQL. In simple terms, SQL (Structured Query Language) is a language designed to manage and manipulate data in relational database management systems (RDBMS).
@@ -13,7 +16,7 @@ SQL – injection
 - Because the condition OR '1'='1' is always true, this query will return all records in the users table, allowing attackers to log in without a valid password.
 - In summary, SQLi is a security attack technique in which attackers exploit vulnerabilities in web applications to inject malicious SQL statements into valid SQL queries. The goal is to access or manipulate data in the database illegally.
 
-# 1.B) Why does SQLi exist?
+### 1.B) Why does SQLi exist?
 a. Improper handling of input data:
    - Lack of input data validation and sanitization.
    - Directly concatenating strings into SQL statements.
