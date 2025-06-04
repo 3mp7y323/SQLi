@@ -10,9 +10,9 @@ SQL – injection
     - [e. Lack of security testing procedures](#e-lack-of-security-testing-procedures)
     - [f. Outdated or insecure infrastructure](#f-outdated-or-insecure-infrastructure)
   - [1.C) Types of SQLi](#1C-Types-of-SQLi)
-    -[a. In-band SQLi:](#a-In-band-SQLi)
-    -[b. Inferential (Blind) SQLi:](#b-Inferential-Blind-SQLi)
-    -[c. Out-of-band SQLi:](#c-Out-of-band-SQLi)
+    -[a. In-band SQLi](#a-In-band-SQLi)
+    -[b. Inferential (Blind) SQLi](#b-Inferential-Blind-SQLi)
+    -[c. Out-of-band SQLi](#c-Out-of-band-SQLi)
 ### 2. The level of damage caused by SQLi!!!
 ### 3. How SQLi works. Tools used for exploitation. Remediation.
 
