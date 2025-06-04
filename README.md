@@ -13,8 +13,8 @@ SQL – injection
     - [a. In-band SQLi:](#a-In-band-SQLi)
     - [b. Inferential (Blind) SQLi:](#b-Inferential-Blind-SQLi)
     - [c. Out-of-band SQLi:](#c-Out-of-band-SQLi)
-### 2. The level of damage caused by SQLi!!!
-### 3. How SQLi works. Tools used for exploitation. Remediation.
+- [2. The level of damage caused by SQLi!!!](#2-The-level-of-damage-caused-by-SQLi)
+- [3. How SQLi works. Tools used for exploitation. Remediation.](#3-How-SQLi-works-Tools-used-for-exploitation-Remediation)
 
 ## 1. What is SQLi? Why does SQLi exist?
 ### 1.A) What is SQLi?
