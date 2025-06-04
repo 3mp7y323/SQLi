@@ -3,6 +3,16 @@ SQL – injection
 - [1. What is SQLi? Why does SQLi exist?](#What-is-SQLi?-Why-does-SQLi-exist?)
   - [1.A) What is SQLi?](#1A-What-is-SQLi)
   - [1.B) Why does SQLi exist?](#1B-Why-does-SQLi-exist)
+    -[a. Improper handling of input data:](#a-Improper-handling-of-input-data)
+    -[b. Lack of using prepared statements and parameterized queries:](#b-Lack-of-using-prepared-statements-and-parameterized-queries)
+    -[c. Using insecure APIs:](#c-Using-insecure-APIs)
+    -[d. Lack of security awareness:](#d-Lack-of-security-awareness)
+    -[e. Lack of security testing procedures:](#e-Lack-of-security-testing-procedures)
+    -[f. Outdated or insecure infrastructure:](#f-Outdated-or-insecure-infrastructure)
+  - [1.C) Types of SQLi](#1C-Types-of-SQLi)
+    -[a. In-band SQLi:](#a-In-band-SQLi)
+    -[b. Inferential (Blind) SQLi:](#b-Inferential-(Blind)-SQLi)
+    -[c. Out-of-band SQLi:](#c-Out-of-band-SQLi)
 ### 2. The level of damage caused by SQLi!!!
 ### 3. How SQLi works. Tools used for exploitation. Remediation.
 
@@ -31,19 +41,19 @@ e. Lack of security testing procedures:
 f. Outdated or insecure infrastructure:
    - Using outdated versions of database management systems or other software components without security patches.
 
-# 1.C) Types of SQLi
+### 1.C) Types of SQLi
 We can classify the 8 types of SQL Injection into 3 main groups: In-band SQLi, Inferential (Blind) SQLi, and Out-of-band SQLi.
 
-a. In-band SQLi:
+#### a. In-band SQLi:
    - Error-Based SQLi: Attackers retrieve information from the database through SQL error messages.
    - Union-Based SQLi: Using the UNION operator to combine results from different SQL statements and retrieve information from the database.
 
-b. Inferential (Blind) SQLi:
+#### b. Inferential (Blind) SQLi:
    - Boolean-Based SQLi: Using logical expressions (TRUE or FALSE) to gather information from the database.
    - Time-Based SQLi: Using SQL statements to delay responses to determine the existence of data or extract information from the database sequentially.
    - Blind SQLi (Error-Based or Time-Based): Attackers do not receive SQL error messages or direct information from the database, but they can still determine information by observing application behaviors or response times.
 
-c. Out-of-band SQLi:
+#### c. Out-of-band SQLi:
    - Out-of-band SQLi (OOB): Using functions or features dependent on other protocols such as DNS or HTTP to transmit data from the database outward.
 
 ## 2. The level of damage caused by SQLi!!!
